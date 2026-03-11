@@ -8,6 +8,7 @@ Target focus: papers related to **geometry-aware unlearning** and/or **data augm
 - **Venue:** ACL 2025 (reported in scholarly indexes) / arXiv:2502.11190
 - **TL;DR (research gap):** Existing gradient-reversal style LLM unlearning often harms language quality and utility; this work identifies the need for a **data-centric augmentation pipeline** that boosts forgetting while preserving fluent generation.
 - **Link:** https://arxiv.org/abs/2502.11190
+- **Code:** https://github.com/zjunlp/unlearn
 
 ## 2) Align-then-Unlearn: Embedding Alignment for LLM Unlearning
 - **Authors (Affiliation):**  
@@ -15,6 +16,7 @@ Target focus: papers related to **geometry-aware unlearning** and/or **data augm
 - **Venue:** arXiv preprint (ICML format submission), 2025
 - **TL;DR (research gap):** Token-level unlearning fails under prompt rephrasing and tends to over-forget unrelated knowledge; this paper argues for a **pre-alignment stage in embedding space** to support more robust, concept-level forgetting.
 - **Link:** https://arxiv.org/abs/2506.13181
+- **Code:** https://github.com/ExplainableML/align-then-unlearn
 
 ## 3) Geometric-disentangelment Unlearning
 - **Authors (Affiliation):**  
@@ -29,6 +31,7 @@ Target focus: papers related to **geometry-aware unlearning** and/or **data augm
 - **Venue:** arXiv preprint, 2024
 - **TL;DR (research gap):** First-order unlearning updates are often too coarse for balancing forgetting and retention; this work highlights the need for **curvature-aware (second-order)** updates to improve one-shot optimization quality.
 - **Link:** https://arxiv.org/abs/2404.18239
+- **Code:** https://github.com/OPTML-Group/SOUL
 
 ## 5) Gauss-Newton Unlearning for the LLM Era
 - **Authors (Affiliation):**  
@@ -68,6 +71,7 @@ Coverage rule used in this append: papers published/released in **2024–2026** 
 - **Venue:** arXiv preprint, 2024
 - **TL;DR (research gap):** Establishes a foundational LLM unlearning benchmark and shows most methods fail to jointly satisfy forgetting + utility goals; motivates stronger pre-unlearning design.
 - **Link:** https://arxiv.org/abs/2401.06121
+- **Code:** https://github.com/locuslab/tofu
 
 ## 8) The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
 - **Authors (Affiliation):**  
@@ -75,6 +79,7 @@ Coverage rule used in this append: papers published/released in **2024–2026** 
 - **Venue:** ICML 2024 (PMLR 235) / arXiv:2403.03218
 - **TL;DR (research gap):** Introduces safety-centric unlearning benchmark and demonstrates that utility-preserving removal is hard in hazardous domains, reinforcing need for proactive robustness controls.
 - **Link:** https://arxiv.org/abs/2403.03218
+- **Code:** https://github.com/centerforaisafety/wmdp
 
 ## 9) MUSE: Machine Unlearning Six-Way Evaluation for Language Models
 - **Authors (Affiliation):**  
@@ -82,6 +87,7 @@ Coverage rule used in this append: papers published/released in **2024–2026** 
 - **Venue:** arXiv preprint, 2024 (released as preprint under review)
 - **TL;DR (research gap):** Expands unlearning evaluation to six dimensions (forgetting, privacy, utility, scalability, sustainability), revealing blind spots missed by single-metric evaluations.
 - **Link:** https://arxiv.org/abs/2407.06460
+- **Code:** https://github.com/jaechan-repo/muse_bench
 
 ## 10) BLUR: A Benchmark for LLM Unlearning Robust to Forget-Retain Overlap
 - **Authors (Affiliation):**  
@@ -124,6 +130,7 @@ Coverage rule used in this append: papers published/released in **2024–2026** 
 - **Venue:** arXiv preprint, 2025 (OpenReview submission track in 2025–2026 cycle)
 - **TL;DR (research gap):** Targets robust and persistent forgetting with strong utility preservation criteria; adjacent to your goal but optimization-centric rather than pre-unlearning data synthesis-centric.
 - **Link:** https://arxiv.org/abs/2509.02820
+- **Code:** https://github.com/nmndeep/JensUn-Unlearning
 
 ## 16) A Comprehensive Evaluation of LLM Unlearning Robustness under Multi-Turn Interaction
 - **Authors (Affiliation):**  
@@ -145,6 +152,20 @@ Coverage rule used in this append: papers published/released in **2024–2026** 
 - **Venue:** arXiv preprint, 2026
 - **TL;DR (research gap):** Shows utility-preserving stabilization can benefit from geometry-aware constraints; useful adjacent evidence for your algorithm-adaptive preparation narrative.
 - **Link:** https://arxiv.org/abs/2602.01703
+- **Code:** https://github.com/TiezMind/AGT-unlearning
+
+---
+
+## Code Resources (quick access)
+
+- **Align-then-Unlearn:** https://github.com/ExplainableML/align-then-unlearn
+- **ReLearn:** https://github.com/zjunlp/unlearn
+- **SOUL:** https://github.com/OPTML-Group/SOUL
+- **TOFU benchmark:** https://github.com/locuslab/tofu
+- **WMDP benchmark:** https://github.com/centerforaisafety/wmdp
+- **MUSE benchmark:** https://github.com/jaechan-repo/muse_bench
+- **Unlearning That Lasts (JensUn):** https://github.com/nmndeep/JensUn-Unlearning
+- **AGT^AO:** https://github.com/TiezMind/AGT-unlearning
 
 ---
 
